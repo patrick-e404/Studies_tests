@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diz teu Country ai</title>
+</head>
+<body>
+    <h1>Qual país dos guri, da o papo</h1>
+    <input type="text" name="txtt" id="txtt">
+    <input type="button" value="Verificar"id="buttonVerificar">
+    <div id="res"></div>
+    <script>
+        document.querySelector('input#buttonVerificar').addEventListener('click',verificar);
+        function verificar(){
+            var pais = document.querySelector('input#txtt').value
+            var res = document.querySelector('div#res')
+            if(pais != 'Brazil'){
+                res.innerHTML = 'You are Gringo man'
+            } else
+                res.innerHTML = 'Tu é Brazuca'
+        }
+    </script>
+</body>
+</html>

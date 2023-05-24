@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamo Seguindo</title>
+    <style>
+        body {
+            background-color: rgb(59, 22, 22);
+            color: black;
+            font: normal 18pt Arial;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>DOM</h1>
+    <p>Arvore</p>
+    <p>Mané arvore <strong>DOM</strong> mano.</p>
+    <div id= 'msg'> Click here </div>
+    <script>
+
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('msg')
+        //d.style. = 'blue'
+        //d.innerText = 'DOM'
+        //representação em queryselector para classe = .
+        //representação em queryselector para div = #
+
+        //mudar estilo do ---p1---
+        /*corpo.style.background = 'green'
+        p1.style.color = 'white'
+        */
+
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'white'
+
+    </script>
+
+
+</body>
+</html>

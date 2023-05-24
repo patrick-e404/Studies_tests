@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    background: linear-gradient(120deg,#ffe53bd8, #ff2525da);
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+}
+#conteiner{
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    outline: 1px solid rgb(68, 19, 19);
+}
+#myimage {
+    display: none;
+    border-radius: 65%;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    margin: 0 auto;
+}
+#btn{
+    padding: 10px,20px;
+    font-size: 18px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#mensagem{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
