@@ -1,0 +1,31 @@
+body{
+background-color: brown;
+height: 200px;
+text-align: center;
+margin-top: 110px;
+}
+header{
+text-align: center;
+font-size: 20px;
+}
+section{
+padding: 40px;
+width: 300px;
+box-shadow: 0 0 20px black;
+border-radius: 35px;
+background: linear-gradient(rgba(0, 0, 0, 0.116), rgb(129, 78, 69));
+margin: 0 auto;
+font-size: 16px;
+}
+#butt{
+cursor: pointer;
+margin-top: 20px;
+height: 30px;
+width: -40px;
+}
+footer{
+text-align: center;
+font: italic;
+font-weight: bold;
+margin-top: 200px;
+}
