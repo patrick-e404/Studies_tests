@@ -1,6 +1,6 @@
 body{
 background-color: brown;
-height: 200px;
+height: px;
 text-align: center;
 margin-top: 110px;
 }
@@ -17,7 +17,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.116), rgb(129, 78, 69));
 margin: 0 auto;
 font-size: 16px;
 }
-#butt{
+#veri{
 cursor: pointer;
 margin-top: 20px;
 height: 30px;
@@ -27,5 +27,5 @@ footer{
 text-align: center;
 font: italic;
 font-weight: bold;
-margin-top: 200px;
+margin-top: 150px;
 }
